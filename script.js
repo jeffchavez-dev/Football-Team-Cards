@@ -172,4 +172,4 @@ const myFavoriteFootballTeam = {
     ]
 }
 
-Object.freeze(myFavoriteFootballTeam )
+Object.freeze(myFavoriteFootballTeam)
