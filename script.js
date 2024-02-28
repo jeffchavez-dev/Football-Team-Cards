@@ -178,11 +178,9 @@ Object.freeze(myFavoriteFootballTeam)
 // const team = myFavoriteFootballTeam.team
 
 const { sport, team, year, players } = myFavoriteFootballTeam
+const { coachName } = myFavoriteFootballTeam.headCoach
 
 typeOfSport.textContent = sport
 teamName.textContent = team
 worldCupYear.textContent = year
-
-const { coachName } = myFavoriteFootballTeam.headCoach
-
 headCoach.textContent = coachName
