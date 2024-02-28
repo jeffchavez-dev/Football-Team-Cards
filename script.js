@@ -182,5 +182,7 @@ const { sport, team, year, players } = myFavoriteFootballTeam
 typeOfSport.textContent = sport
 teamName.textContent = team
 worldCupYear.textContent = year
-headCoach.textContent = coachName
+
 const { coachName } = myFavoriteFootballTeam.headCoach
+
+headCoach.textContent = coachName
