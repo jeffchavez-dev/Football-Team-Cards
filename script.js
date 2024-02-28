@@ -172,4 +172,3 @@ const myFavoriteFootballTeam = {
     ]
 }
 
-myFavoriteFootballTeam.Object.freeze()
