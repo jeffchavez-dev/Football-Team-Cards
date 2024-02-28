@@ -57,6 +57,11 @@ footer {
   border-radius: 15px;
 }
 
+.player-card:hover {
+  transform: scale(1.05);
+  transition: .5s all ease-in-out;
+}
+
 @media (max-width: 768px) {
   .team-stats {
     flex-direction: column;
