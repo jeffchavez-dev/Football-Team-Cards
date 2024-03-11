@@ -208,5 +208,6 @@ playersDropdownList.addEventListener('change', (e) => {
           break
         case "forward":
           setPlayerCards(players.filter((player) => player.position == "forward"))
+          break
     }
 })
